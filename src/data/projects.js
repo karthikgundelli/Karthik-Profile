@@ -4,13 +4,14 @@ export const projects = [
     description:
       "Real estate platform with authentication, property listings, filtering and real-time updates.",
     tech: "React, Firebase, Bootstrap",
-    link: "https://estatemitra.vercel.app"
+    link: "https://estate-mitra.vercel.app/"
   },
   {
     title: "College Placement System",
     description:
       "Placement preparation platform with aptitude tests, resume prep and mock interviews.",
     tech: "React, Firebase",
-    link: "https://placement-portal.vercel.app"
+    link: "https://project-ks-gules.vercel.app/"
   }
 ];
+
