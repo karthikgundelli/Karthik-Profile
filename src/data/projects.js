@@ -7,11 +7,12 @@ export const projects = [
     link: "https://estate-mitra.vercel.app/"
   },
   {
-    title: "College Placement System",
+    title: "FurniFlex - ECommerce Web App",
     description:
-      "Placement preparation platform with aptitude tests, resume prep and mock interviews.",
+      "Users can Easily Order the Furniture from the stores to door step.",
     tech: "React, Firebase",
-    link: "https://project-ks-gules.vercel.app/"
+    link: "https://furni-flex-com.vercel.app/"
   }
 ];
+
 
