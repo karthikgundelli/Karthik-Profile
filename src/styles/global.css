@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f8fafc;
+  color: #020617;
+}
+
+main {
+  padding-top: 80px;
+}
+
+section {
+  padding: 90px 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+a {
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 70px 6%;
+  }
+}

@@ -1,0 +1,16 @@
+.about {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #cbd5f5;
+}
+
+@media (max-width: 768px) {
+  .about p {
+    font-size: 1rem;
+  }
+}

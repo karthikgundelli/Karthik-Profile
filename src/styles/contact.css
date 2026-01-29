@@ -1,0 +1,46 @@
+.contact {
+  text-align: center;
+}
+
+.contact-box {
+  max-width: 520px;
+  margin: auto;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+}
+
+.contact-box p {
+  margin: 14px 0;
+  color: #475569;
+}
+
+.contact-box span {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.contact-links {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-links a {
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 2px solid #2563eb;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  background: #2563eb;
+  color: white;
+}
+@media (max-width: 600px) {
+  .contact-box {
+    padding: 25px;
+  }
+}
